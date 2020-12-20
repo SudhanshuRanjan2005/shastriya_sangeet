@@ -1,0 +1,138 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Laila', serif;
+    background: #112c3f;
+    color: #fff;
+
+}
+
+a {
+    color: #fff;
+}
+a:hover {
+    color: rgb(219, 215, 215);
+}
+p {
+    font-size: 20px;
+    text-align: left;
+}
+.ending-line{
+    background: linear-gradient(45deg,#833ab4, #fd1d1d, #fcb045 90%);
+    height: 7px;
+    width: 400px;
+    border-radius: 20px;
+    margin-top: 90px;
+    
+}
+/* navbar css start  */
+nav {
+    background: #21565c;
+    border-radius: 7px;
+}
+
+.navbar-brand {
+    padding: 5px 40px;
+    font-family: 'kalam';
+    font-weight: bolder;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.hamburger-link {
+    padding: 5px 40px;
+    font-family: 'kalam';
+    font-weight: bold;
+    font-size: 20px;
+}
+.hamburger-link a:hover {
+    text-decoration: underline;
+}
+/* navbar css end  */
+/* classical music css start */
+.classical-music{
+    
+    text-align: center;
+    margin-top: 8rem;
+    color: #007FFF;
+    font-family: 'Eczar';
+    font-size: 35px;
+}
+.classical-music-container {
+    text-align: center;
+}
+.dash-container{
+    margin: auto;
+    padding: auto;
+    box-sizing: ;
+}
+.dash{
+    width: 390px;
+    height: 5px;
+    border-radius: 20px;
+    background: #ff005a;
+    background: linear-gradient(45deg,#ff005a,#0a183d 90%);
+}
+.row {
+    margin: 40px 0;
+    
+}
+.classical {
+    width: 100%
+
+    
+}.image-column {
+    margin: 0;
+    padding: 0;
+    padding-left: 5rem;
+}
+.classical-music-column {
+    padding-left: 4rem;
+    padding-top: 1.5rem;
+}
+
+/* inrtro css end */
+/* musician into css start */
+.image-musician {
+    padding-top: 9rem;
+    padding-left: 2rem;
+    width: 90%;
+}
+.name {
+    padding-top: 2rem;
+    text-align: center;
+    color: #007FFF;
+    font-family: 'Eczar';
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+/* footer css start  */
+footer {
+    background-color: #1735e2;
+    margin-top: 1rem;
+    padding: 0;
+    font-size: 1rem;
+    box-sizing: border-box;
+    display: block;
+    
+}
+
+
+
+
+
+
+@media screen and (max-width:995px){
+    .classical{
+        width: 40%;
+        margin-bottom: 1rem;
+    }
+    .row {
+        --bs-gutter-x: 3.5rem;
+        --bs-gutter-y: 0;
+        align-items: center;
+    }
+    .navbar-brand {
+        font-size: 25px;
+    }
+}
