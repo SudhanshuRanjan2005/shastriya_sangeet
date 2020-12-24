@@ -136,3 +136,10 @@ footer {
         font-size: 25px;
     }
 }
+
+@media screen and (max-width:507px){
+    .classical{
+        width: 70%;
+        margin-bottom: 1rem;
+    }
+}
